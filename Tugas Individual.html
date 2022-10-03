@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<style>
+  .navbar{
+    margin:auto;
+    font-weight: bolder; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  .nav-item a:hover {
+    background-color: black;
+    color: white;
+  }
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-md p-2">
+            <span class="navbar-brand mb-0 h1">NAVBAR</span>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ARTIST</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ALBUM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SONG</a>
+              </li>
+            </ul>
+      </div>
+    </nav>
+    
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="wallpaper/black 2.png" class="d-block w-100" height="720px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Slide</h5>
+            <p>LAH</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="wallpaper/bom.jpg" class="d-block w-100" height="720px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Slide</h5>
+            <p>LAH</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="wallpaper/flash.png" class="d-block w-100" height="720px">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Slide</h5>
+          <p>LAH</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    
+  <script>
+    let url="";
+    
+    fetch()
+    .then(response => {
+
+      return response.json();
+    })
+    .then(data => {
+      
+    })
+  </script>
+</body>
+</html>
