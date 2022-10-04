@@ -8,12 +8,8 @@
     font-style: inherit;
 }
 
-*{
-    box-sizing: border-box;
-}
-
 body{
-    background-color: #3A4F9C;
+    background-color: #000;
     font-family: "Roboto",sans-serif ;
     margin: 0;
 }
@@ -34,7 +30,7 @@ body{
 }
 
 .Search::placeholder{
-    color: brown;
+    color: grey;
 }
 
 main{
@@ -48,10 +44,17 @@ main{
     margin: 1rem;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0, 0, 0,0.1);
-    background-color: #3A4F9;
+    background-color: #000;
     position: relative;
     overflow: hidden;
 }
+
+.navbar img{
+    border-radius: 90%;
+    height: 60px;
+    width: 95px;
+}
+
 
 .Film img{
     width: 100%;
@@ -67,23 +70,22 @@ main{
 }
 
 .info h3{
-    margin-top: 0;
-
+    margin-top: 10px;
 }
 
 .info span{
-    background-color: #955937;
-    padding: 0.25rem 0.5rem;
+    background-color: #251B37;
+    padding: 0.2rem 0.5rem;
     border-radius: 3px;
     font-weight: bolder;
 }
 
 .info span.green{
-    color: lightgreen;
+    color: #38E54D;
 }
 
 .info span.orange{
-    color: orange;
+    color: #FD841F;
 }
 
 .info span.red{

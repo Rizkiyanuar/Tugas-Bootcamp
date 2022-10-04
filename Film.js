@@ -33,8 +33,8 @@ function show(data){
         </div>
     
         <div class="overview">
-          <h3>overview</h3>
-          ${overview}
+          <h3>${title}</h3>
+          <p>${overview}</p>
         </div>`
 
         main.appendChild(FilmElm);
