@@ -1,2 +1,1 @@
-#Tugas Bootcamp
-Website berisikan Sinopsis dan Review Film-Film Bioskop
+Website yang berisikan Sinopsis beserta Rating Film-Film Bioskop
