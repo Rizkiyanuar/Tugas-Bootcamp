@@ -1,2 +1,2 @@
-# Tugas-Bootcamp
-Website yang berisikan review-review film terbaik pada masanya
+#Tugas Bootcamp
+Website berisikan Sinopsis dan Review Film-Film Bioskop
